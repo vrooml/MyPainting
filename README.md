@@ -1,2 +1,3 @@
 # MyPainting
-一个基于快速风格迁移算法的安卓端APP demo
+一个图像风格迁移的安卓端APPdemo
+技术栈：CameraX、Kotlin；Flask；Pytorch。
