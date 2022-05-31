@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.364" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/drawable/bg_button.xml" value="0.217" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/drawable/bg_seek_bar.xml" value="0.217" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/drawable/flash_button.xml" value="0.364" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/drawable/focus_ring.xml" value="0.364" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/drawable/ic_launcher_background.xml" value="0.364" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/drawable/shape_corner.xml" value="0.217" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/drawable/shoot_button.xml" value="0.364" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/layout/activity_edit.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/layout/loading_dialog.xml" value="0.39947916666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/layout/process_image_view.xml" value="0.264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/layout/vp_view_item.xml" value="0.39947916666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyPainting/app/src/main/res/xml/photo_path.xml" value="0.39947916666666666" />
+        <entry key="..\:/camera_demo/app/src/main/res/layout/activity_edit.xml" value="0.39947916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

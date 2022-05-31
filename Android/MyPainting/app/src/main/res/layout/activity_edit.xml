@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <ImageView
+        android:id="@+id/preview_image_blur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:transitionName="sharedView"
+            app:layout_constraintBottom_toTopOf="@id/filter_view_pager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/preview_image_processed"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@id/filter_view_pager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.github.nikartm.button.FitButton
+            android:id="@+id/save_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:fb_backgroundColor="@color/black"
+            app:fb_icon="@drawable/save"
+            app:fb_iconMarginTop="10dp"
+            app:fb_iconMarginStart="10dp"
+            app:fb_iconHeight="20dp"
+            app:fb_iconWidth="20dp"
+            app:fb_cornerRadius="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:elevation="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:background="#00000000"
+            android:textColor="@color/white"
+            android:text="100"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/tense_text"
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@id/seek_bar"
+            app:layout_constraintLeft_toRightOf="@id/seek_bar"
+            app:layout_constraintBottom_toBottomOf="@id/seek_bar"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <SeekBar
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:progressDrawable="@drawable/bg_seek_bar"
+            android:background="#00000000"
+            android:id="@+id/seek_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:thumbTint="@color/white"
+            app:layout_constraintBottom_toTopOf="@id/filter_view_pager"
+            app:layout_constraintRight_toLeftOf="@id/tense_text"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/filter_view_pager"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:clipChildren="false"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
