@@ -1,0 +1,4 @@
+test
+python neural_style/neural_style.py eval --content-image images/content-images/3.jpg --model saved_models/mosaic.pth --output-image images/output-images/test.jpg --cuda 1
+train
+python neural_style/neural_style.py train --dataset small_datasets --style-image images/style-images/hosi.jpg --save-model-dir ./ --epochs 20 --cuda 1 --content-weight 1e6 --style-weight 1e10
